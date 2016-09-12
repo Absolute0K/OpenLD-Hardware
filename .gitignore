@@ -1,0 +1,4 @@
+*.sublime*
+*.o
+*.bin
+*.elf
