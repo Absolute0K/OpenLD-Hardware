@@ -1,13 +1,21 @@
-#include "main.h"
+/*
+    This file is part of the project OpenLD.
 
-// This file was created a long time ago...
-// Probably June-ish
-// Edited on 10/9/2014 for multichannel capability
-// TODO: Make FFT a 2D function and simulate on a dummy program
-// Edited version one million til 11/17/2014 to add multichannel
-// Band pass Filtering. FFT became deprecated due to precision issues +
-// Lack of speed of RN42
-// Updated speed to 230K, just enough for 4 channels
+    OpenLD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    OpenLD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with OpenLD.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#include "main.h"
 
 // Initalize counter + BioEXG settings
 uint32_t counterData = 0;
