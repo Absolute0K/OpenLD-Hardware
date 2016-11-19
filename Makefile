@@ -19,7 +19,7 @@ SRCDIR = src
 
 ###
 # Standard Peripheral Library path
-STM_DIR = ../STM32F4_Libraries/STM32F4xx_DSP_StdPeriph_Lib_V1.6.0
+STM_DIR = ../STM32F4xx_DSP_StdPeriph_Lib_V*
 
 # This is where the source files are located,
 STM_SRC = $(STM_DIR)/Libraries/STM32F4xx_StdPeriph_Driver/src
